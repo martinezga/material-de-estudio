@@ -1,0 +1,54 @@
+{
+	"vehiculos": [
+        {
+            "tipo": "moto",
+			"marca": "BMW",
+            "cc": 1200,
+			"modelo": 2019
+		},
+		{
+            "tipo": "moto",
+			"marca": "Honda",
+            "cc": 400,
+			"modelo": 2019
+		},
+		{
+            "tipo": "carro",
+			"marca": "Honda",
+			"modelo": 2005
+		},
+        {
+            "tipo": "moto",
+			"marca": "BMW",
+            "cc": 300,
+			"modelo": 2019
+		},
+		{
+            "tipo": "moto",
+			"marca": "Honda",
+            "cc": 200,
+			"modelo": 2019
+		},
+		{
+            "tipo": "carro",
+			"marca": "Ford",
+			"modelo": 2005
+		},
+		{
+            "tipo": "carro",
+			"marca": "Mitsubishi",
+			"modelo": 2000
+		},
+		{
+            "tipo": "carro",
+			"marca": "Honda",
+			"modelo": 2000
+		},
+		{
+            "tipo": "moto",
+			"marca": "Honda",
+            "cc": 200,
+			"modelo": 2015
+		}
+	]
+}

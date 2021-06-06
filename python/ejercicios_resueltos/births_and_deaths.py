@@ -38,7 +38,7 @@ def year_max_people_alive(data):
 
 
 if __name__ == "__main__":
-    with open("data.json") as input_file:
+    with open("raw_input/data.json") as input_file:
         data = json.load(input_file)
 
     result = year_max_people_alive(data["data"])

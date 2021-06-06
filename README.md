@@ -6,15 +6,39 @@ A continuación encontrarás material recolectado por mi en diversas tecnología
 - [Docker](/docker)
 - Inglés
 - [Python](/python)
-    - [Ejercicios Resueltos](/ejercicios_resueltos)
+    - [Ejercicios Resueltos](/python/ejercicios_resueltos)
     - [Mis soluciones de Codewars](https://github.com/martinezga/py-study-group/tree/main/ejercicios/CodeWars/Gabriella-Martinez)
-    - [Mis soluciones de HackerRank](/ejercicios_resueltos/hackerRank)
+    - Mis soluciones de HackerRank
 
 ---
 
 Así como también los enunciados de diversos ejercicios para resolver en el lenguaje de tu preferencia.
 
 ## Ejercicios 🐱‍👤
+
+### 🔍 **Mostrar a través del endopint "/api/character/id" en formato json la información del personaje de Star Wars que corresponda al id consultado**
+
+&nbsp;&nbsp;&nbsp; Los datos de los personajes están disponibles en el siguiente archivo CSV [aquí](/python/ejercicios_resueltos/input/starwars.csv).
+
+&nbsp;&nbsp;&nbsp; Ejemplo: /api/character/1
+```
+{
+    "id": 1,
+    "name": "Luke Skywalker",
+	"height": "172",
+	"mass": "77",
+	"hair_color": "blond",
+	"skin_color": "fair",
+	"eye_color": "blue",
+	"birth_year": "19BBY",
+	"gender": "male",
+	"homeworld": "Tatooine",
+    "species": "Human"
+}
+```
+&nbsp;&nbsp;&nbsp; Realizar también un Unit test para probar el endpoint.
+
+Fuente: Challenge de LambdaClass.
 
 ### 🔍 **Lista específica de Hackerrank**
 - [Number Line Jumps](https://www.hackerrank.com/challenges/kangaroo)
@@ -45,15 +69,24 @@ Fuente: [@HackademyMX](https://github.com/hackademymx)
 
 ### 🔍 **Determinar el año que tuvo más personas vivas dando como datos: año de nacimiento y año de defunción.**
 
-&nbsp;&nbsp;&nbsp; Los datos están disponibles en formato JSON [aquí](/python/exercises/data.json).
+&nbsp;&nbsp;&nbsp; Los datos están disponibles en formato JSON [aquí](/python/ejercicios_resueltos/input/data.json).
 
-&nbsp;&nbsp;&nbsp; Por ejemplo: La persona 1 nace en 1980 y muere en el 2010 y la persona 2 nace en el 2010 y muere en el 2040.
+&nbsp;&nbsp;&nbsp; Por ejemplo: La persona 1 nace en 1980 y muere en el 2010 y la persona 2 nace en el 2010 y 
+muere en el 2040.
 
 &nbsp;&nbsp;&nbsp; La respuesta es 2010 como el año que más personas vivas tuvo.
 
 Fuente: [@HackademyMX](https://github.com/hackademymx)
 
 _✨ Puedes ver mi solución [aquí](/python/ejercicios_resueltos/births_and_deaths.py)._
+
+### 🔍 **Dado un conjunto de vehículos ordenarlos por: tipo, marca, cc si es moto y modelo**
+
+&nbsp;&nbsp;&nbsp; No es válido usar el método sort.
+
+&nbsp;&nbsp;&nbsp; Los datos están disponibles en formato JSON [aquí](/python/ejercicios_resueltos/input/vehiculos.json).
+
+Fuente: [@HackademyMX](https://github.com/hackademymx)
 
 ---
 
