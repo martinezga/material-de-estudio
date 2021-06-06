@@ -18,7 +18,7 @@ Así como también los enunciados de diversos ejercicios para resolver en el len
 
 ### 🔍 **Mostrar a través del endopint "/api/character/id" en formato json la información del personaje de Star Wars que corresponda al id consultado**
 
-&nbsp;&nbsp;&nbsp; Los datos de los personajes están disponibles en el siguiente archivo CSV [aquí](/python/ejercicios_resueltos/input/starwars.csv).
+&nbsp;&nbsp;&nbsp; Los datos de los personajes están disponibles en el siguiente archivo CSV [aquí](/python/ejercicios_resueltos/raw_input/starwars.csv).
 
 &nbsp;&nbsp;&nbsp; Ejemplo: /api/character/1
 ```
@@ -69,7 +69,7 @@ Fuente: [@HackademyMX](https://github.com/hackademymx)
 
 ### 🔍 **Determinar el año que tuvo más personas vivas dando como datos: año de nacimiento y año de defunción.**
 
-&nbsp;&nbsp;&nbsp; Los datos están disponibles en formato JSON [aquí](/python/ejercicios_resueltos/input/data.json).
+&nbsp;&nbsp;&nbsp; Los datos están disponibles en formato JSON [aquí](/python/ejercicios_resueltos/raw_input/data.json).
 
 &nbsp;&nbsp;&nbsp; Por ejemplo: La persona 1 nace en 1980 y muere en el 2010 y la persona 2 nace en el 2010 y 
 muere en el 2040.
@@ -84,7 +84,7 @@ _✨ Puedes ver mi solución [aquí](/python/ejercicios_resueltos/births_and_dea
 
 &nbsp;&nbsp;&nbsp; No es válido usar el método sort.
 
-&nbsp;&nbsp;&nbsp; Los datos están disponibles en formato JSON [aquí](/python/ejercicios_resueltos/input/vehiculos.json).
+&nbsp;&nbsp;&nbsp; Los datos están disponibles en formato JSON [aquí](/python/ejercicios_resueltos/raw_input/vehiculos.json).
 
 Fuente: [@HackademyMX](https://github.com/hackademymx)
 
