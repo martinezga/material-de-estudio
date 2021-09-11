@@ -1,7 +1,5 @@
 ## Steps to replicate the project
 
----
-
 Create a virtual environment and activate it
 
     python3 -m venv SELENIUM
@@ -37,3 +35,9 @@ then run:
 Or use this shell script to set the directory path
 
     zsh ./run.sh
+
+---
+
+## .env file structure example
+
+CUSTOM_PATH="/opt/WebDriver/bin/chromedriver"
