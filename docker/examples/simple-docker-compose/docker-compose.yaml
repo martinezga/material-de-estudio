@@ -1,0 +1,25 @@
+services:
+
+  back:
+    container_name: back_mentoria
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    volumes:
+      - ./backend:/app
+
+  front:
+    container_name: front_mentoria
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - ./frontend:/app
+
+volumes:
+    back:
+    front:
