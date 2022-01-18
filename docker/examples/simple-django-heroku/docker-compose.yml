@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+
+  api:
+    container_name: app_mentoria
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file: ./app/.env
+    ports:
+      - 80:8000
+    volumes:
+      - type: bind
+        source: ./app
+        target: /opt/app    
+      # Another way to mount volumes
+      # - ./app:/opt/app
+
+  redis:
+    container_name: redis_mentoria
+    image: "redis:alpine"
