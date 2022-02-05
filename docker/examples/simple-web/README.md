@@ -1,19 +1,24 @@
 # Simple web
 
-Project created to teach how deploy a simple web application using Docker and Nginx as server to girls of Skill for Women in Tech - México 2022.
+Project created to teach how deploy a basic web application using Docker and Nginx as server to girls of Skill for Women in Tech - México 2022.
 
 ### Image available at:
 
 https://hub.docker.com/r/martinezga/simple-web
 
-## How run the app using the image from Docker hub:
+## How download an image from Docker hub:
 
+Descargar la imagen:
 
-## How deploy using the Dockerfile:
+        $ docker pull martinezga/simple-web
+
+## How create an image using Dockerfile:
 
 Crear la imagen:
 
         $ docker build -t image_name .
+
+## How run the app on localhost:
 
 Verificar que la imagen está creada:
 
