@@ -1,0 +1,11 @@
+body {
+    background-color: #ebebeb;
+}
+
+.random-pic > img {
+    height: 50vh;
+}
+
+footer {
+    background-color: #E0228A;
+}
