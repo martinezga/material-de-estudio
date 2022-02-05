@@ -2,7 +2,14 @@
 
 Project created to teach how deploy a simple web application using Docker and Nginx as server to girls of Skill for Women in Tech - México 2022.
 
-## App deploy using Docker:
+### Image available at:
+
+https://hub.docker.com/r/martinezga/simple-web
+
+## How run the app using the image from Docker hub:
+
+
+## How deploy using the Dockerfile:
 
 Crear la imagen:
 
@@ -34,3 +41,16 @@ Crear un contenedor que incluya un "bind volume" para ver los cambios reflejados
 - Nginx
 - Vanilla HTML, CSS, JS
 - https://some-random-api.ml/endpoints
+
+
+### How tag and deploy an image to Docker Hub:
+
+        $ docker login
+        $ docker tag simple-web:latest martinezga/simple-web:latest
+        $ docker push martinezga/simple-web:latest
+
+### Do you want to create your own project?
+
+Visit this tutorial:
+
+https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/
