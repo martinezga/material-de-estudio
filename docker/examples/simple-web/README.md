@@ -1,5 +1,7 @@
 # Simple web
 
+Project created to teach how deploy a simple web application using Docker and Nginx as server to girls of Skill for Women in Tech - México 2022.
+
 ## App deploy using Docker:
 
 Crear la imagen:
@@ -30,5 +32,5 @@ Crear un contenedor que incluya un "bind volume" para ver los cambios reflejados
 
 - Docker
 - Nginx
-- HTML, CSS, Vanilla JS
+- Vanilla HTML, CSS, JS
 - https://some-random-api.ml/endpoints
