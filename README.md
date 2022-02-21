@@ -15,6 +15,17 @@ Así como también los enunciados de diversos ejercicios para resolver en el len
 
 ## Ejercicios 🐱‍👤
 
+### **Show me a mythical creature!**
+
+Select on a terminal menu the type of creature you want to see and enter its name.
+You will see it and hear its voice!
+
+Play it on https://replit.com/@martinezga/creature-game
+
+Fuente: Creación propia
+
+_✨ Para ver el código presiona -> [aquí](/python/creature-game/creature_game.py)._
+
 ### 🔍 **Mostrar a través del endopint "/api/character/id" en formato json la información del personaje de Star Wars que corresponda al id consultado**
 
 &nbsp;&nbsp;&nbsp; Los datos de los personajes están disponibles en el siguiente archivo CSV [aquí](/python/ejercicios_resueltos/raw_input/starwars.csv).
@@ -70,7 +81,7 @@ Fuente: [@HackademyMX](https://github.com/hackademymx)
 
 &nbsp;&nbsp;&nbsp; Los datos están disponibles en formato JSON [aquí](/python/ejercicios_resueltos/raw_input/data.json).
 
-&nbsp;&nbsp;&nbsp; Por ejemplo: La persona 1 nace en 1980 y muere en el 2010 y la persona 2 nace en el 2010 y 
+&nbsp;&nbsp;&nbsp; Por ejemplo: La persona 1 nace en 1980 y muere en el 2010 y la persona 2 nace en el 2010 y
 muere en el 2040.
 
 &nbsp;&nbsp;&nbsp; La respuesta es 2010 como el año que más personas vivas tuvo.
