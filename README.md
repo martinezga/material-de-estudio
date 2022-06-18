@@ -4,6 +4,8 @@ A continuación encontrarás material recolectado por mi en diversas tecnología
 
 - Desarrollo Web
 - [Docker](/docker)
+- [Java](/java)
+	- [Ejercicios Resueltos](/java/ejercicios_resueltos)
 - [Python](/python)
     - [Ejercicios Resueltos](/python/ejercicios_resueltos)
     - [Mis soluciones de Codewars](https://github.com/martinezga/py-study-group/tree/main/ejercicios/CodeWars/Gabriella-Martinez)
